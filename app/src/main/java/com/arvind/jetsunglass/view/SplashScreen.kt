@@ -39,7 +39,7 @@ fun SplashScreen(navController: NavController) {
         )
         delay(Constants.SPLASH_SCREEN_DURATION)
         navController.popBackStack()
-        navController.navigate(Screen.ProductDetailScreen.route)
+        navController.navigate(Screen.DashboardScreen.route)
 
 
     }

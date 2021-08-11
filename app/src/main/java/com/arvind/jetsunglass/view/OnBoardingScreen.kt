@@ -160,7 +160,7 @@ fun OnBoardingScreen() {
 
                         },
                         elevation = null,
-                        shape = RoundedCornerShape(12.dp),
+                        shape = RoundedCornerShape(14.dp),
                         colors = ButtonDefaults.buttonColors(
                             backgroundColor = paledark
                         ),

@@ -44,7 +44,6 @@ fun DashboardScreen() {
 
             Spacer(modifier = Modifier.padding(10.dp))
             TopAppBarHeader()
-            Spacer(modifier = Modifier.padding(10.dp))
             Category(itemList)
             Spacer(modifier = Modifier.padding(10.dp))
             CategoryItems()
@@ -79,12 +78,15 @@ fun TopAppBarHeader() {
             modifier = Modifier.offset((-65).dp)
         )
 
-        IconButton(onClick = {}) {
-            Icon(
-                imageVector = Icons.Default.Menu,
+        IconButton(onClick = {
+
+        }) {
+            Image(
+                painter = painterResource(id = R.drawable.dashboard_icon_grid),
                 contentDescription = "Home",
-                tint = black
+                modifier = Modifier.size(32.dp, 32.dp)
             )
+
 
         }
     }
@@ -235,7 +237,7 @@ fun OurClients() {
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(start = 16.dp,bottom = 20.dp)
+            .padding(start = 26.dp, bottom = 20.dp)
     ) {
         Text(
             text = "Our Clients",
