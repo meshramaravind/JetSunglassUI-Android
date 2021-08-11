@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">JetSunglass</string>
+
+    <string name="onboarding_heading_1">Find Your Sunglassess</string>
+    <string name="onboarding_heading_2">Find Your Sunglassess</string>
+    <string name="onboarding_heading_3">Find Your Sunglassess</string>
+
+    <string name="onboarding_description_1">We have a selection of the most popular sunglasses</string>
+    <string name="onboarding_description_2">We have a selection of the most popular sunglasses</string>
+    <string name="onboarding_description_3">We have a selection of the most popular sunglasses</string>
+
+</resources>
