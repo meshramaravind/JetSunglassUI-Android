@@ -141,9 +141,9 @@ fun ProductDetailsScreen() {
 
                                         }) {
                                             Icon(
-                                                imageVector = Icons.Default.Add,
+                                                painter = painterResource(id = R.drawable.ic_baseline_minimize_24),
                                                 contentDescription = "",
-                                                tint = paledark
+                                                modifier = Modifier.padding(bottom = 10.dp)
                                             )
                                         }
                                         Text(

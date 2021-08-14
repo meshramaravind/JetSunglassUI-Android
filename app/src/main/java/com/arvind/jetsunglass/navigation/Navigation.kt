@@ -30,7 +30,5 @@ fun Navigation() {
         composable(Screen.ProductDetailScreen.route) {
             ProductDetailsScreen()
         }
-
-
     }
 }
